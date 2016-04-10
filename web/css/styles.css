@@ -66,3 +66,16 @@ a:link,a:visited,.navbar-default .navbar-nav>li>a:hover,
 .spacer,.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus,#grid .mix .overlay {
     background: #CCC;
 }
+
+/* Fixed Backgrounds */
+.cd-fixed-bg {
+    min-height: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.cd-fixed-bg.cd-bg-1 {
+    background-image: url("../img/gibson.jpg");
+}
