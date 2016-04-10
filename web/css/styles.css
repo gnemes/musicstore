@@ -28,7 +28,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
 }
 .navbar-default {
-    background: rgba(85, 85, 85, 0.85);
+    background: rgba(55, 55, 55, 0.85);
     border: none;
     text-transform: uppercase;
     display: inline-block;
