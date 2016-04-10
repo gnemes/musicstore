@@ -22,6 +22,12 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
 }
 
+/* Header */
+.header {
+    height: 50px;
+    background: rgba(55, 55, 55, 1);
+}
+
 /* Navigation */
 
 .navbar {
@@ -30,7 +36,6 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-default {
     background: rgba(55, 55, 55, 0.85);
     border: none;
-    text-transform: uppercase;
     display: inline-block;
     text-align: center;
     position: fixed;
