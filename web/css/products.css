@@ -326,6 +326,13 @@ a, button, a:hover, button:hover, a:focus, button:focus, a.active, button.active
     border-top-right-radius: 0;
 }
 
+.merged-buttons button:last-child, .merged-buttons .le-btn:last-child {
+    background-color: #199182 !important;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    margin-left: -5px;
+}
+
 .btn-add-to-cart::before {
     content: "";
     font-family: fontawesome;
@@ -339,4 +346,9 @@ a, button, a:hover, button:hover, a:focus, button:focus, a.active, button.active
     margin-right: 5px;
     vertical-align: bottom;
     width: 18px;
+}
+
+.btn-add-to-wishlist::before {
+    content: "";
+    font-family: fontawesome;
 }
