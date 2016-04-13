@@ -145,6 +145,22 @@ section, header {
     position: relative;
 }
 
+.le-ribbon, .le-ribbon.right {
+    right: -36px;
+    transform: rotate(45deg);
+}
+
+.le-ribbon {
+    display: inline-block;
+    font-weight: 700 !important;
+    height: 55px;
+    position: absolute;
+    text-transform: uppercase;
+    top: -8px;
+    width: 110px;
+    z-index: 500;
+}
+
 .le-ribbon.blue::before {
     border-color: transparent transparent #407ac5;
 }
