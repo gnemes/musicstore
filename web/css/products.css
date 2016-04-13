@@ -1,10 +1,86 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : Apr 13, 2016, 12:03:08 PM
-    Author     : gnemes
-*/
+a {
+  background: transparent;
+}
+a:active,
+a:hover {
+  outline: 0;
+}
 
+img {
+  border: 0;
+}
+
+section, header {
+    position: relative;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.icon-holder {
+    display: inline-block;
+    height: 45px;
+    position: relative;
+    width: 32px;
+    z-index: 200;
+}
+
+.icon-holder .triangle::before {
+    transform: rotate(-135deg) skewX(-45deg) scale(1.414, 0.707) translate(0px, -50%);
+}
+
+.icon-holder .triangle, .icon-holder .triangle::before, .icon-holder .triangle::after {
+    border-top-right-radius: 30%;
+    height: 30px;
+    width: 30px;
+}
+
+.icon-holder .triangle::before, .icon-holder .triangle::after {
+    background-color: inherit;
+    content: "";
+    position: absolute;
+}
+
+.icon-holder .triangle::before {
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.2) inset;
+}
+
+.icon-holder .triangle::after {
+    transform: rotate(135deg) skewY(-45deg) scale(0.707, 1.414) translate(50%);
+}
+
+.icon-holder .triangle, .icon-holder .triangle::before, .icon-holder .triangle::after {
+    border-top-right-radius: 30%;
+    height: 30px;
+    width: 30px;
+}
+
+.icon-holder .triangle::before, .icon-holder .triangle::after {
+    background-color: inherit;
+    content: "";
+    position: absolute;
+}
+
+.icon-holder .triangle::after {
+    box-shadow: -2px 0 0 rgba(0, 0, 0, 0.2) inset;
+}
+
+.icon-holder .triangle, .icon-holder .triangle::before, .icon-holder .triangle::after {
+    border-top-right-radius: 30%;
+    height: 30px;
+    width: 30px;
+}
+
+.icon-holder .triangle {
+    background-color: #1da796;
+    box-shadow: 0 -2px 0 0 rgba(0, 0, 0, 0.2) inset;
+    display: inline-block;
+    left: 0;
+    position: absolute;
+    text-align: left;
+    transform: rotate(-60deg) skewX(-30deg) scale(1, 0.866);
+}

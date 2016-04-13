@@ -1,10 +1,42 @@
 /* Base */
-html, body {
-    height: 100%;
-    width: 100%;
-    font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
-    color: #EEE;
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
 }
+
+body {
+    margin: 0;
+    color: #323232;
+    font-family: "Montserrat",sans-serif;
+    font-size: 12px;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+*::-moz-selection {
+    background-color: #1da796;
+    color: #ffffff;
+    text-shadow: none;
+}
+
 img {
     max-width: 100%;
 }
