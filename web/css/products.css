@@ -370,3 +370,19 @@ a, button, a:hover, button:hover, a:focus, button:focus, a.active, button.active
     width: 50px;
     z-index: 100;
 }
+
+.le-badge span {
+    bottom: 0;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 12px;
+    left: 0;
+    line-height: 12px;
+    margin: auto;
+    position: relative;
+    right: 0;
+    text-align: center;
+    top: 27%;
+    vertical-align: middle;
+    width: 100%;
+}
