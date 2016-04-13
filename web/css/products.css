@@ -172,3 +172,19 @@ section, header {
     position: absolute;
     width: 0;
 }
+
+.le-ribbon span {
+    bottom: 0;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 12px;
+    height: 12px;
+    left: 0;
+    line-height: 12px;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 12px;
+    width: 50%;
+}
