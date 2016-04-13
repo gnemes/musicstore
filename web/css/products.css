@@ -356,6 +356,11 @@ a, button, a:hover, button:hover, a:focus, button:focus, a.active, button.active
 .le-badge.orange {
     background-color: orange;
 }
+
+.le-badge.green {
+    background-color: #59b210;
+}
+
 .le-badge {
     border-radius: 200px;
     display: inline-block;
