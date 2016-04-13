@@ -192,3 +192,9 @@ section, header {
 .product-item .head .thumb {
     overflow: hidden;
 }
+
+.product-item .head .thumb img {
+    position: relative;
+    right: -40%;
+    transition: all 0.3s ease 0s;
+}

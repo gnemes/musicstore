@@ -126,3 +126,13 @@ h1, h2, h3, h4, h5 {
     text-transform: uppercase;
     color: inherit;
 }
+
+img {
+    max-width: 100%;
+}
+img {
+    vertical-align: middle;
+}
+img {
+    border: 0 none;
+}
