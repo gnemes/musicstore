@@ -118,3 +118,11 @@ a:link,a:visited,.navbar-default .navbar-nav>li>a:hover,
 .cd-fixed-bg.cd-bg-1 {
     background-image: url("../img/gibson.jpg");
 }
+
+h1, h2, h3, h4, h5 {
+    font-family: "Montserrat",sans-serif;
+    font-weight: 600 !important;
+    margin: 0;
+    text-transform: uppercase;
+    color: inherit;
+}
