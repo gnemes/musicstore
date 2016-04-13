@@ -352,3 +352,21 @@ a, button, a:hover, button:hover, a:focus, button:focus, a.active, button.active
     content: "";
     font-family: fontawesome;
 }
+
+.le-badge.orange {
+    background-color: orange;
+}
+.le-badge {
+    border-radius: 200px;
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 700 !important;
+    height: 50px;
+    line-height: 20px;
+    position: absolute;
+    right: 8%;
+    text-transform: uppercase;
+    top: 8%;
+    width: 50px;
+    z-index: 100;
+}
