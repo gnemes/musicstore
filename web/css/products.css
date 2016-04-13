@@ -192,3 +192,35 @@ section, header {
 .product-item .head .thumb {
     overflow: hidden;
 }
+
+.product-item .head .price {
+    left: 5%;
+    letter-spacing: 1px;
+    position: absolute;
+    top: 5%;
+}
+
+.product-item .price-current, .product-item .price-old {
+    background-clip: padding-box;
+    border-radius: 4px;
+    box-shadow: 0 -2px 0 0 rgba(0, 0, 0, 0.2) inset;
+    color: #ffffff;
+    display: inline-block;
+    margin-bottom: 5px;
+    padding: 3px 5px;
+    position: relative;
+}
+
+.product-item .price-old {
+    background-color: #abb0ac;
+    color: #747474;
+    display: table;
+    font-size: 12px;
+    text-decoration: line-through;
+}
+
+.product-item .price-current {
+    background-color: #8bb040;
+    font-size: 16px;
+    font-weight: 500 !important;
+}
