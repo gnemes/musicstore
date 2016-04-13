@@ -107,11 +107,12 @@ a:link,a:visited,.navbar-default .navbar-nav>li>a:hover,
 
 /* Fixed Backgrounds */
 .cd-fixed-bg {
-    min-height: 300px;
+    min-height: 400px;
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center center;
+    margin-bottom: 20px;
 }
 
 .cd-fixed-bg.cd-bg-1 {
