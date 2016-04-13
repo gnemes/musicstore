@@ -1,5 +1,8 @@
 a {
   background: transparent;
+  color: #747474;
+  transition: all 0.3s ease 0s;
+  text-decoration: none;
 }
 a:active,
 a:hover {
