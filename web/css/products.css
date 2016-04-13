@@ -233,3 +233,17 @@ section, header {
     text-align: center;
     transition: all 0.2s ease 0s;
 }
+
+.product-item .body {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #f4f4f4;
+    border-color: -moz-use-text-color rgba(0, 0, 0, 0.07) rgba(0, 0, 0, 0.07);
+    border-image: none;
+    border-radius: 0 0 6px 6px;
+    border-style: none solid solid;
+    border-width: 0 5px 5px;
+    padding: 20px;
+}
