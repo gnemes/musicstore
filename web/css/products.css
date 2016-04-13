@@ -247,3 +247,93 @@ section, header {
     border-width: 0 5px 5px;
     padding: 20px;
 }
+
+.product-item .body h3 {
+    font-size: 18px;
+    line-height: 26px;
+    min-height: 44px;
+    text-transform: capitalize;
+}
+
+.product-item .body .excerpt {
+    color: #747474;
+    line-height: 20px;
+    margin: 10px 0;
+}
+
+.merged-buttons {
+    text-align: center;
+}
+
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+}
+
+button {
+    overflow: visible;
+}
+
+button, select {
+    text-transform: none;
+}
+
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+    cursor: pointer;
+}
+
+input, button, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+a, button, a:hover, button:hover, a:focus, button:focus, a.active, button.active {
+    outline: medium none !important;
+}
+
+.le-btn {
+    background-clip: padding-box;
+    background-color: #1da796;
+    border: medium none;
+    border-radius: 4px;
+    box-shadow: 0 -2px 0 0 rgba(0, 0, 0, 0.2) inset;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 13px;
+    letter-spacing: 1px;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    transition: all 0.3s ease 0s;
+    vertical-align: middle;
+}
+
+.merged-buttons button, .merged-buttons .le-btn {
+    display: inline-block;
+}
+
+.product-item .body button {
+    font-size: 11px;
+    padding: 8px;
+}
+
+.merged-buttons button:first-child, .merged-buttons .le-btn:first-child {
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.btn-add-to-cart::before {
+    content: "";
+    font-family: fontawesome;
+}
+
+.btn-iconic::before {
+    font-family: fontawesome;
+    font-size: 18px;
+    height: 18px;
+    line-height: 18px;
+    margin-right: 5px;
+    vertical-align: bottom;
+    width: 18px;
+}
