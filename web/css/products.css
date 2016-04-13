@@ -100,3 +100,12 @@ section, header {
     width: 20px;
     z-index: 100;
 }
+
+.iconic-nav-bar .bar {
+    background-color: #f4f4f4;
+    border-radius: 25px 4px 4px 0;
+    display: block;
+    padding: 3px 0 3px 50px;
+    position: relative;
+    top: -46px;
+}
