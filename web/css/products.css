@@ -116,3 +116,16 @@ section, header {
     font-weight: 500 !important;
     line-height: 25px;
 }
+
+.product-item {
+    display: inline-block;
+    padding: 0 15px;
+    width: 285px;
+}
+
+.products-holder.simple-grid .product-item {
+    float: none;
+    margin-bottom: 30px;
+    padding: 0;
+    width: auto;
+}
