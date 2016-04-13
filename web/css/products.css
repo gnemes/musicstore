@@ -109,3 +109,10 @@ section, header {
     position: relative;
     top: -46px;
 }
+
+.iconic-nav-bar .bar h2 {
+    display: inline-block;
+    font-size: 17px;
+    font-weight: 500 !important;
+    line-height: 25px;
+}
