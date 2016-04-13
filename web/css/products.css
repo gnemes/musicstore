@@ -188,3 +188,7 @@ section, header {
     top: 12px;
     width: 50%;
 }
+
+.product-item .head .thumb {
+    overflow: hidden;
+}
